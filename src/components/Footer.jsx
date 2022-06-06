@@ -108,7 +108,7 @@ const Footer = () => {
                             </Link>
                         </p>
                         <p>
-                            Hướng đến mục tiêu mang lại niềm vui ăn mặc mới mỗi ngày cho hàng triệu người tiêu dùng Việt. Hãy cùng Yolo hướng đến một cuộc sống năng động, tích cực hơn.
+                            aaaaaaa
                         </p>
                     </div>
                 </Grid>

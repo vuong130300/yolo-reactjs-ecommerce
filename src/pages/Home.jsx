@@ -7,7 +7,7 @@ import Section, { SectionTitle, SectionBody } from '../components/Section'
 import PolicyCard from '../components/PolicyCard'
 import Grid from '../components/Grid'
 import ProductCard from '../components/ProductCard'
-
+import Contact from './Contact'
 import heroSliderData from '../assets/fake-data/hero-slider'
 import policy from '../assets/fake-data/policy'
 import productData from '../assets/fake-data/products'

@@ -1,5 +1,5 @@
 const colors = [
-    {
+   /* {
         display: "Trắng",
         color: "white"
     },
@@ -23,6 +23,7 @@ const colors = [
         display: "Xanh dương",
         color: "blue"
     }
+    */
 ]
 
 export default colors

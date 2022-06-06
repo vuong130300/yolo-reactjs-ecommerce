@@ -1,5 +1,5 @@
 const size = [
-    {
+   /* {
         display: "S",
         size: "s"
     },
@@ -18,7 +18,7 @@ const size = [
     {
         display: "XXL",
         size: "xxl"
-    },
+    },*/
 ]
 
 export default size

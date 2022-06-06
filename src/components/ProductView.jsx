@@ -55,7 +55,7 @@ const ProductView = props => {
     }, [product])
 
     const check = () => {
-        if (color === undefined) {
+       /* if (color === undefined) {
             alert('Vui lòng chọn màu sắc!')
             return false
         }
@@ -65,7 +65,7 @@ const ProductView = props => {
             return false
         }
 
-        return true
+        return true*/
     }
 
     const addToCart = () => {
@@ -140,9 +140,9 @@ const ProductView = props => {
                 </div>
                 <div className="product__info__item">
                     <div className="product__info__item__title">
-                        Màu sắc
+                       Loai
                     </div>
-                    <div className="product__info__item__list">
+                    {/* <div className="product__info__item__list">
                         {
                             product.colors.map((item, index) => (
                                 <div key={index} className={`product__info__item__list__item ${color === item ? 'active' : ''}`} onClick={() => setColor(item)}>
@@ -150,13 +150,13 @@ const ProductView = props => {
                                 </div>
                             ))
                         }
-                    </div>
+                    </div> */}
                 </div>
                 <div className="product__info__item">
                     <div className="product__info__item__title">
-                        Kích cỡ
+                        KG
                     </div>
-                    <div className="product__info__item__list">
+                    {/* <div className="product__info__item__list">
                         {
                             product.size.map((item, index) => (
                                 <div key={index} className={`product__info__item__list__item ${size === item ? 'active' : ''}`} onClick={() => setSize(item)}>
@@ -166,7 +166,7 @@ const ProductView = props => {
                                 </div>
                             ))
                         }
-                    </div>
+                    </div> */}
                 </div>
                 <div className="product__info__item">
                     <div className="product__info__item__title">
